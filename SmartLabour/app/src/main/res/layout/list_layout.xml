@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:layout_margin="10dp"
+    android:elevation="5dp"
+    android:background="#000000">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:src="@drawable/man"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/image"
+        android:paddingTop="2dp"
+        android:paddingHorizontal="15dp"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/name_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="M. Usman"
+            android:textSize="24sp"
+            android:textColor="@color/whiteColor"/>
+
+        <TextView
+            android:id="@+id/exp_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Android Developer"
+            android:textSize="18sp"
+            android:paddingTop="1dp"
+            android:textColor="@color/whiteColor"/>
+        <TextView
+            android:id="@+id/city_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lahore"
+            android:textSize="18sp"
+            android:paddingTop="5dp"
+            android:textColor="@color/whiteColor"/>
+        <TextView
+            android:id="@+id/phone_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+923227202732"
+            android:textSize="18sp"
+            android:paddingTop="5dp"
+            android:textColor="@color/whiteColor"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

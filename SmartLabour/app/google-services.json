@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "852493041229",
+    "firebase_url": "https://smartlabour-bed81.firebaseio.com",
+    "project_id": "smartlabour-bed81",
+    "storage_bucket": "smartlabour-bed81.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:852493041229:android:f7a50fc07df28616e9e604",
+        "android_client_info": {
+          "package_name": "com.example.smartlabour"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "852493041229-a2k5p1pqkin233it0eevctp9nab611hh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.smartlabour",
+            "certificate_hash": "10677c841b8d85240c127eee44850e72740b7fd4"
+          }
+        },
+        {
+          "client_id": "852493041229-ei4lpm5hsmrega7dgad09kbtfbd8db08.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8TGd6q-Wmjt5FVSHqJa6irMVZPmPN8ZM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "852493041229-ei4lpm5hsmrega7dgad09kbtfbd8db08.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
